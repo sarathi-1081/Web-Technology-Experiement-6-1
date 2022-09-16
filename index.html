@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box">Hello World!!</div>
+    </div>
+    <hr />
+    <div class="inputs">
+      <label>Background Color: </label>
+      <input
+        type="color"
+        name="color"
+        id="bgcolor"
+        onchange="bgcolorchange()"
+      />
+      <br />
+      <label>Text Color:</label>
+      <input
+        type="color"
+        name="textcolor"
+        id="textcolor"
+        onchange="textcolchange()"
+      />
+      <br />
+      <label>Text Size:</label>
+      <select name="fontsize" id="fontsize" onchange="textsize()">
+        <option value="8">8</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+      </select>
+      <br />
+      <label>Box Width:</label>
+      <input type="text" id="boxwidth" onkeyup="widthchange()" />
+      <br />
+      <label>Box Height:</label>
+      <input type="text" id="boxheight" onkeyup="heightchange()" />
+      <br />
+      <label>Box Radius:</label>
+      <input
+        type="range"
+        min="5"
+        max="100"
+        name="slider"
+        id="myslider"
+        onmousemove="borderRadius()"
+      />
+    </div>
+  </body>
+  <hr />
+  <footer>Created By SARATHI R URK20CS1081</footer>
+</html>

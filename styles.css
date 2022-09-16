@@ -1,0 +1,38 @@
+body {
+  background-color: #c7ddcc;
+}
+
+.container {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+}
+
+#box {
+  width: 300px;
+  height: 300px;
+  background-color: #75c9b7;
+  border: 3px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 24px;
+  color: yellow;
+}
+
+.container2 {
+  padding-left: 70px;
+}
+
+footer {
+  text-align: center;
+  font-weight: bolder;
+}
